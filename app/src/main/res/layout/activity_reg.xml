@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".RegActivity"
+    android:background="@color/background">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#ffffff"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Full Name"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorAccent"
+            android:textColorHint="#555"
+            android:id="@+id/regName"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="E-mail ID"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorAccent"
+            android:textColorHint="#555"
+            android:id="@+id/regMail"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinYear"
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinDept"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Class Roll"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorAccent"
+            android:textColorHint="#ffffff"
+            android:id="@+id/Roll"
+            android:layout_marginRight="10dp"
+
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#ffffff"
+
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorAccent"
+            android:textColorHint="#555"
+            android:id="@+id/regPwd"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Unique ID"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorAccent"
+            android:textColorHint="#555"
+            android:id="@+id/idUnique"
+
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/field">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:buttonTint="@color/colorAccent"
+            android:id="@+id/radioStudent"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:buttonTint="@color/colorAccent"
+            android:id="@+id/radioAdmin"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:buttonTint="@color/colorAccent"
+            android:id="@+id/radioTeacher"/>
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="REGISTER"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_rounded"
+        android:id="@+id/register"
+        />
+
+</LinearLayout>

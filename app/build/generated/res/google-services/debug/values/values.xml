@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">278420973426-mcld0e4c6vl0eprribakk373plb6gm9h.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://aotlogin-2d156.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">278420973426</string>
+    <string name="google_api_key" translatable="false">AIzaSyCbO0xXg5CW_nAzS7LIwjZ5DEqq3HmGgH0</string>
+    <string name="google_app_id" translatable="false">1:278420973426:android:54839c7fd21cab73891feb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCbO0xXg5CW_nAzS7LIwjZ5DEqq3HmGgH0</string>
+    <string name="google_storage_bucket" translatable="false">aotlogin-2d156.appspot.com</string>
+    <string name="project_id" translatable="false">aotlogin-2d156</string>
+</resources>

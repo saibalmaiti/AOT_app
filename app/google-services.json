@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "278420973426",
+    "firebase_url": "https://aotlogin-2d156.firebaseio.com",
+    "project_id": "aotlogin-2d156",
+    "storage_bucket": "aotlogin-2d156.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278420973426:android:54839c7fd21cab73891feb",
+        "android_client_info": {
+          "package_name": "com.example.aot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278420973426-rlv2clpes2kqm6hd39lhur39dces3lcq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aot",
+            "certificate_hash": "b894bb0b046bf47a70989268f1c16f938ae98c5c"
+          }
+        },
+        {
+          "client_id": "278420973426-qu8ll585h2gfv7qmb6dkm7evhee1ilkp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aot",
+            "certificate_hash": "ca8dc6e53f2cc541de46cd709dac15fb7bddfe37"
+          }
+        },
+        {
+          "client_id": "278420973426-mcld0e4c6vl0eprribakk373plb6gm9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbO0xXg5CW_nAzS7LIwjZ5DEqq3HmGgH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278420973426-mcld0e4c6vl0eprribakk373plb6gm9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
